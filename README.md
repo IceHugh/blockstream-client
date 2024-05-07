@@ -5,9 +5,17 @@ The Blockstream Client Library is a JavaScript library that provides a simple an
 
 **Getting Started**
 ---------------
+### Installation
 
-To use the library, you need to create an instance of the `BlockstreamClient` class, passing in the network and API URL as options. For example:
+To install the library, you can use npm:
+```bash
+npm install blockstream-client
 ```
+
+### Usage
+To use the library, you need to create an instance of the `BlockstreamClient` class, passing in the network and API URL as options. For example:
+```js
+import BlockstreamClient from 'blockstream-client';
 const client = new BlockstreamClient({ network:'mainnet'});
 ```
 

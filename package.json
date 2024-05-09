@@ -1,10 +1,10 @@
 {
   "name": "blockstream-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "IceHugh",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blockstream-client"
+    "url": "https://github.com/IceHugh/blockstream-client"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
